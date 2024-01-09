@@ -255,13 +255,13 @@ fieldset {
   position: relative;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
-  content: "";
-  position: absolute;
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
+  content: '';
   width: 15px;
   height: 15px;
-  left: 1px;
-  top: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
 }
 
