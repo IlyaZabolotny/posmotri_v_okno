@@ -42,14 +42,20 @@ ol {
   justify-content: center;
   align-items: flex-end;
   gap: 30px;
-  padding: 133px 0;
+  padding: 133px 30px;
+}
+
+.result {
+  padding-bottom: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .search-form {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  padding-top: 16px;
 }
 
 .content__details {
@@ -80,7 +86,7 @@ ol {
 
 .result__video-container {
   position: relative;
-  width: 711px;
+  min-width: 711px;
   height: 386px;
 }
 
@@ -256,7 +262,7 @@ fieldset {
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
-  content: '';
+  content: "";
   width: 15px;
   height: 15px;
   display: flex;
