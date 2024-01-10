@@ -16,6 +16,8 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  align-items: center;
 }
 
 h1,
@@ -42,7 +44,7 @@ ol {
   justify-content: center;
   align-items: flex-end;
   gap: 30px;
-  padding: 170px 30px;
+  padding: 133px 30px;
 }
 
 .result {
@@ -73,10 +75,6 @@ ol {
   align-items: flex-start;
   gap: 30px;
   overflow: auto;
-}
-
-.content__list-item {
-  padding-bottom: 30px;
 }
 
 .content__video-card {
