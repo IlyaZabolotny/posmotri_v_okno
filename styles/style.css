@@ -67,7 +67,8 @@ ol {
 
 .content__list {
   position: relative;
-  max-height: 298px;
+  max-height: 301px;
+  padding: 3px;
   flex-direction: column;
   align-items: flex-start;
   gap: 30px;
@@ -92,7 +93,7 @@ ol {
 
 .content__video-card-thumbnail {
   width: 194px;
-  height: 103px;
+  height: 101px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -135,7 +136,6 @@ ol {
   text-decoration: none;
   color: #fff;
   display: block;
-  padding: 6px;
 }
 
 .content__card-link_current {
@@ -152,10 +152,11 @@ ol {
   font-weight: 700;
   line-height: 100%;
   text-transform: uppercase;
-  padding-bottom: 6px;
+  padding: 2px;
 }
 
 .content__video-card-description {
+  padding: 4px 2px;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
