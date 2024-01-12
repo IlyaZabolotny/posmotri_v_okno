@@ -1,4 +1,4 @@
-# posmotri v okno review
+# posmotri v okno
 
 Проект "Посмотри в окно"
 
